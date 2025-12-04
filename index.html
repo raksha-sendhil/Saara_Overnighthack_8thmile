@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Secure Test System</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; background: #eef2f3; margin:0; padding:0;
+         display:flex; justify-content:center; align-items:center; height:100vh; }
+  .container { width:500px; background:white; padding:25px; border-radius:12px;
+               box-shadow:0 0 10px rgba(0,0,0,0.2); }
+  h2 { text-align:center; color:#333; margin:0 0 12px 0; }
+  button { width:100%; padding:12px; background:#0066ff; color:white; border:none;
+           border-radius:6px; font-size:16px; cursor:pointer; margin-top:10px; }
+  button:hover { background:#0047b3; }
+  #timer { font-size:20px; text-align:center; font-weight:bold; padding:10px;
+           margin-bottom:15px; color:#d9534f; }
+  .question-box { font-size:18px; padding:20px; background:#f7f9fc; border-radius:10px;
+                   margin-bottom:15px; min-height:80px; }
+  .navigation { display:flex; justify-content:space-between; gap:8px; }
+  .small-btn { width:48%; padding:10px; background:#0066ff; border-radius:6px; color:white;
+               border:none; cursor:pointer; }
+  #logBox { margin-top:15px; height:120px; overflow-y:auto; background:#f0f0f0;
+            padding:10px; border-radius:6px; font-size:14px; border:1px solid #ccc; }
+  .answer-input { width:100%; padding:10px; border-radius:6px; border:1px solid #aaa;
+                   margin-top:10px; margin-bottom:15px; }
+  #meta { font-size:12px; color:#666; margin-top:8px; text-align:center; }
+  .warn { color:#a40; font-weight:600; margin-top:8px; text-align:center; }
+  #sessionId { font-size:12px; color:#333; text-align:center; margin-top:6px; }
+  .submit-red { background:#d9534f; border:none; color:white; padding:10px; border-radius:6px; cursor:pointer; margin-top:8px; }
+  .submit-red:hover { background:#b83b3b; }
+</style>
+</head>
+<body>
+  <div class="container" id="homePage">
+    <h2>Student Dashboard</h2>
+    <div id="sessionId" style="display:none;"></div>
+    <button id="startBtn">Start Test</button>
+    <div id="meta">This demo logs non-sensitive behavioral metadata (timestamps, events). No typed content or clipboard data is sent.</div>
+  </div>
+
+  <div class="container" id="testPage" style="display:none;">
+    <div id="sessionIdDisplay"></div>
+    <div id="timer">Time Left: 15:00</div>
+    <div id="questionArea" class="question-box"></div>
+
+    <input id="answerInput" class="answer-input" placeholder="Type your answer here..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+
+    <div class="navigation" style="margin-bottom:10px;">
+      <button class="small-btn" id="prevBtn">Previous</button>
+      <button class="small-btn" id="nextBtn">Next</button>
+    </div>
+
+    <!-- Submit button added here -->
+    <div style="margin-top:4px;">
+      <button id="submitBtn" class="submit-red">Submit Test</button>
+    </div>
+
+    <div class="warn" id="warn" style="display:none;"></div>
+
+    <h3>Cheating Log</h3>
+    <div id="logBox">No events yet.</div>
+  </div>
+
+  <div class="container" id="scorePage" style="display:none;">
+    <h2>Test Finished</h2>
+    <div id="finalScore" style="font-size:22px; text-align:center; margin-top:20px;"></div>
+    <div style="margin-top:12px;">
+      <button id="backHomeBtn">Back to Home</button>
+    </div>
+  </div>
+
+<script>
+/* ---------------- Configuration ---------------- */
+const FLUSH_MS = 2000;            // send events every 2s
+const MOVE_THROTTLE_MS = 40;      // throttle mousemove samples
+const WINDOW_MS = 10000;          // backend sliding window (info only)
+const TEST_DURATION_SEC = 15 * 60; // 15 minutes
+// endpoint (same-origin)
+const API_EVENTS = '/api/events';
+const API_SESSIONS = '/api/sessions';
+/* ------------------------------------------------ */
+
+/* ---------- Test content & state ---------- */
+const questions = [
+  "1) What is the capital of India?",
+  "2) Solve: 15 + 22",
+  "3) Who invented the light bulb?",
+  "4) What is the boiling point of water (°C)?",
+  "5) In which year did India get independence?"
+];
+
+let answers = ["", "", "", "", ""];
+let currentQ = 0;
+let timeLeft = TEST_DURATION_SEC;
+let timerInterval = null;
+let testStarted = false;
+let sessionId = null;
+
+/* ---------- Event buffer & helpers ---------- */
+let eventBuffer = [];  // events waiting to be sent
+let lastMouseTs = 0;
+let lastKeyTs = null;
+let flushTimer = null;
+
+function genSessionId(){
+  return 'sess_' + Math.random().toString(36).slice(2, 10);
+}
+
+function pushEvent(ev){
+  // attach client timestamp (ms)
+  ev.t = Date.now();
+  eventBuffer.push(ev);
+  // also show high-level cheat messages in UI log when appropriate
+  if(ev.type && ev.type.startsWith('cheat_')){
+    uiLog(ev.msg || ev.type);
+  }
+}
+
+function uiLog(msg){
+  const log = document.getElementById('logBox');
+  if(log.innerHTML.trim() === "No events yet.") log.innerHTML = "";
+  const time = new Date().toLocaleTimeString();
+  log.innerHTML += `⚠️ ${time} — ${msg}<br>`;
+  log.scrollTop = log.scrollHeight;
+  // brief visual warn
+  const w = document.getElementById('warn');
+  w.style.display = 'block';
+  w.textContent = msg;
+  setTimeout(()=>{ w.style.display = 'none'; }, 2200);
+}
+
+/* ---------- Frontend UI functions ---------- */
+function updateQuestion(){
+  document.getElementById('questionArea').textContent = questions[currentQ];
+  document.getElementById('answerInput').value = answers[currentQ] || '';
+  pushEvent({type:'question_change', question: currentQ});
+}
+
+function startTimer(){
+  timerInterval = setInterval(()=>{
+    timeLeft--;
+    if(timeLeft < 0){
+      clearInterval(timerInterval);
+      finishTest();
+      return;
+    }
+    const m = Math.floor(timeLeft/60);
+    const s = timeLeft%60;
+    document.getElementById('timer').textContent = `Time Left: ${m}:${s < 10 ? '0'+s : s}`;
+  }, 1000);
+}
+
+/* ---------- Test control ---------- */
+document.getElementById('startBtn').addEventListener('click', ()=>{
+  startTest();
+});
+
+function startTest(){
+  // generate session id
+  sessionId = genSessionId();
+  document.getElementById('sessionId').style.display = 'block';
+  document.getElementById('sessionId').textContent = `Session: ${sessionId}`;
+  document.getElementById('sessionIdDisplay').textContent = `Session: ${sessionId}`;
+  // show test UI
+  document.getElementById('homePage').style.display = 'none';
+  document.getElementById('testPage').style.display = 'block';
+  testStarted = true;
+  updateQuestion();
+  startTimer();
+  // push start event
+  pushEvent({type:'test_start'});
+  // start periodic flush
+  flushTimer = setInterval(flushBuffer, FLUSH_MS);
+}
+
+function finishTest(){
+  // mark answers final, push end event, flush buffer then show score UI
+  testStarted = false;
+  clearInterval(timerInterval);
+  if(flushTimer) clearInterval(flushTimer);
+  pushEvent({type:'test_end'});
+  flushBuffer(true); // attempt synchronous send via sendBeacon or final fetch
+  // compute simple score locally for display (the ML score is shown in dashboard)
+  let score = 0;
+  const correct = ["New Delhi","37","Thomas Edison","100","1947"];
+  for(let i=0;i<5;i++){
+    if((answers[i]||'').trim().toLowerCase() === correct[i].toLowerCase()) score++;
+  }
+  document.getElementById('testPage').style.display = 'none';
+  document.getElementById('scorePage').style.display = 'block';
+  document.getElementById('finalScore').innerHTML = `Your Score: <b>${score}/5</b>`;
+}
+
+document.getElementById('prevBtn').addEventListener('click', ()=>{
+  saveCurrentAnswer();
+  if(currentQ>0){ currentQ--; updateQuestion(); }
+});
+document.getElementById('nextBtn').addEventListener('click', ()=>{
+  saveCurrentAnswer();
+  if(currentQ < questions.length - 1){ currentQ++; updateQuestion(); }
+});
+
+document.getElementById('answerInput').addEventListener('input', (e)=>{
+  answers[currentQ] = e.target.value;
+  // log typing metadata (we log key events separately; keep this minimal)
+  pushEvent({type:'answer_edit', question: currentQ});
+});
+
+document.getElementById('backHomeBtn')?.addEventListener('click', ()=>{
+  // reload page to reset in demo
+  location.reload();
+});
+
+function saveCurrentAnswer(){
+  answers[currentQ] = document.getElementById('answerInput').value;
+  pushEvent({type:'question_save', question: currentQ});
+}
+
+/* ---------- Event listeners for behavioral capture ---------- */
+
+// Keydown: metadata only (no characters)
+document.addEventListener('keydown', (e) => {
+  if(!testStarted) return;
+  // coarse classification only
+  const keyType = (e.key && e.key.length === 1) ? 'char' : 'control';
+  const ev = { type:'keydown', code: e.code || null, keyType: keyType };
+  pushEvent(ev);
+  const now = Date.now();
+  if(lastKeyTs){
+    const dt = now - lastKeyTs;
+    pushEvent({ type:'iki', dt: dt });
+  }
+  lastKeyTs = now;
+}, true);
+
+document.addEventListener('keyup', (e) => {
+  if(!testStarted) return;
+  pushEvent({ type:'keyup', code: e.code || null });
+}, true);
+
+// Mouse movement (throttled)
+window.addEventListener('mousemove', (e) => {
+  if(!testStarted) return;
+  const now = Date.now();
+  if(now - lastMouseTs < MOVE_THROTTLE_MS) return;
+  lastMouseTs = now;
+  pushEvent({ type:'mousemove', x: e.clientX, y: e.clientY });
+}, true);
+
+window.addEventListener('mousedown', (e) => {
+  if(!testStarted) return;
+  pushEvent({ type:'mousedown', x: e.clientX, y: e.clientY, button: e.button });
+}, true);
+
+window.addEventListener('mouseup', (e) => {
+  if(!testStarted) return;
+  pushEvent({ type:'mouseup', x: e.clientX, y: e.clientY, button: e.button });
+}, true);
+
+window.addEventListener('click', (e) => {
+  if(!testStarted) return;
+  pushEvent({ type:'click', x: e.clientX, y: e.clientY, button: e.button });
+}, true);
+
+// Selection
+document.addEventListener('selectionchange', (e) => {
+  if(!testStarted) return;
+  const sel = document.getSelection();
+  if(sel && sel.toString && sel.toString().length>0){
+    pushEvent({ type:'selection', length: sel.toString().length });
+  }
+}, true);
+
+// Right-click / contextmenu (blocked)
+document.addEventListener('contextmenu', (e) => {
+  if(!testStarted) return;
+  e.preventDefault();
+  pushEvent({ type:'cheat_rightclick', msg:'Right-click attempt detected' });
+  uiLog('Right-click attempt detected');
+}, true);
+
+// Copy / Paste (blocked)
+document.addEventListener('copy', (e) => {
+  if(!testStarted) return;
+  e.preventDefault();
+  pushEvent({ type:'cheat_copy', msg:'Copy attempt detected' });
+  uiLog('Copy attempt detected');
+}, true);
+
+document.addEventListener('paste', (e) => {
+  if(!testStarted) return;
+  e.preventDefault();
+  // do not read clipboard contents; only log types if available
+  const types = (e.clipboardData && e.clipboardData.types) ? Array.from(e.clipboardData.types) : [];
+  pushEvent({ type:'cheat_paste', msg:'Paste attempt detected', clipTypes: types });
+  uiLog('Paste attempt detected');
+}, true);
+
+// Visibility / Tab switching
+document.addEventListener('visibilitychange', () => {
+  if(!testStarted) return;
+  if(document.hidden){
+    pushEvent({ type:'visibility', state:'hidden' });
+    pushEvent({ type:'cheat_tab_switch', msg:'Tab switched / window hidden' });
+    uiLog('Tab switching detected');
+  } else {
+    pushEvent({ type:'visibility', state:'visible' });
+  }
+});
+
+// beforeunload: attempt to flush remaining events using sendBeacon
+window.addEventListener('beforeunload', (e) => {
+  if(!sessionId) return;
+  if(eventBuffer.length === 0) return;
+  try {
+    const payload = JSON.stringify({ session_id: sessionId, question_id: currentQ, events: eventBuffer });
+    if(navigator.sendBeacon){
+      navigator.sendBeacon(API_EVENTS, payload);
+      eventBuffer = [];
+    } else {
+      // synchronous XHR fallback (not ideal, but try)
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', API_EVENTS, false);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(payload);
+      eventBuffer = [];
+    }
+  } catch(err){
+    // ignore
+  }
+});
+
+/* ---------- Networking: flush buffer ---------- */
+async function flushBuffer(force=false){
+  if(!sessionId) return;
+  if(eventBuffer.length === 0) return;
+  // copy & clear buffer immediately to avoid race conditions
+  const out = eventBuffer.slice();
+  eventBuffer = [];
+  const payload = { session_id: sessionId, question_id: currentQ, events: out };
+  try {
+    await fetch(API_EVENTS, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify(payload)
+    });
+  } catch(err){
+    // on failure push events back into buffer (simple backoff)
+    console.warn('Failed to send events, re-queueing', err);
+    eventBuffer = out.concat(eventBuffer);
+  }
+}
+
+/* ---------- Initialization ---------- */
+(function init(){
+  // attach handlers for start/intro already bound to buttons
+  document.getElementById('prevBtn').addEventListener('click', ()=>{ saveAnswer(); });
+  document.getElementById('nextBtn').addEventListener('click', ()=>{ saveAnswer(); });
+
+  // submit button handler
+  document.getElementById('submitBtn').addEventListener('click', function(){
+    if(!testStarted) return;
+    if(confirm("Do you want to submit the test? You will not be able to continue.")){
+      saveCurrentAnswer();
+      finishTest();
+    }
+  });
+
+  // show session if exists
+  document.getElementById('sessionId').style.display = 'none';
+
+  // ensure test ends at timeout or when user navigates away/hits finish manually
+  // (we already handle automatic ending on timer)
+})();
+
+/* ---------- Utility ---------- */
+function saveAnswer(){
+  answers[currentQ] = document.getElementById('answerInput').value;
+  pushEvent({type:'question_save', question: currentQ});
+}
+
+/* ---------- Expose a manual finish (debug) ---------- */
+window.finishTest = finishTest;
+
+/* ---------- End of script ---------- */
+</script>
+</body>
+</html>

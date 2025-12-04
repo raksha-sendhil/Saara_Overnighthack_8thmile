@@ -1,0 +1,3884 @@
+[
+  {
+    "type": "question_change",
+    "question": 0,
+    "t": 1764889193758
+  },
+  {
+    "type": "test_start",
+    "t": 1764889193758
+  },
+  {
+    "type": "mousemove",
+    "x": 708,
+    "y": 359,
+    "t": 1764889194140
+  },
+  {
+    "type": "mousemove",
+    "x": 703,
+    "y": 319,
+    "t": 1764889194188
+  },
+  {
+    "type": "mousemove",
+    "x": 700,
+    "y": 312,
+    "t": 1764889194238
+  },
+  {
+    "type": "mousemove",
+    "x": 699,
+    "y": 310,
+    "t": 1764889194302
+  },
+  {
+    "type": "mousemove",
+    "x": 698,
+    "y": 310,
+    "t": 1764889194364
+  },
+  {
+    "type": "mousemove",
+    "x": 697,
+    "y": 310,
+    "t": 1764889194405
+  },
+  {
+    "type": "mousemove",
+    "x": 695,
+    "y": 310,
+    "t": 1764889194478
+  },
+  {
+    "type": "mousemove",
+    "x": 694,
+    "y": 310,
+    "t": 1764889194524
+  },
+  {
+    "type": "mousedown",
+    "x": 694,
+    "y": 310,
+    "button": 0,
+    "t": 1764889195048
+  },
+  {
+    "type": "mouseup",
+    "x": 694,
+    "y": 310,
+    "button": 0,
+    "t": 1764889195264
+  },
+  {
+    "type": "click",
+    "x": 694,
+    "y": 310,
+    "button": 0,
+    "t": 1764889195264
+  },
+  {
+    "type": "mousemove",
+    "x": 684,
+    "y": 309,
+    "t": 1764889196151
+  },
+  {
+    "type": "mousemove",
+    "x": 654,
+    "y": 306,
+    "t": 1764889196204
+  },
+  {
+    "type": "mousemove",
+    "x": 466,
+    "y": 302,
+    "t": 1764889196253
+  },
+  {
+    "type": "mousemove",
+    "x": 450,
+    "y": 299,
+    "t": 1764889196303
+  },
+  {
+    "type": "keydown",
+    "code": "ShiftLeft",
+    "keyType": "control",
+    "t": 1764889197585
+  },
+  {
+    "type": "keydown",
+    "code": "KeyN",
+    "keyType": "char",
+    "t": 1764889197683
+  },
+  {
+    "type": "iki",
+    "dt": 98,
+    "t": 1764889197683
+  },
+  {
+    "type": "answer_edit",
+    "question": 0,
+    "t": 1764889197706
+  },
+  {
+    "type": "keyup",
+    "code": "ShiftLeft",
+    "t": 1764889197770
+  },
+  {
+    "type": "keyup",
+    "code": "KeyN",
+    "t": 1764889197827
+  },
+  {
+    "type": "keydown",
+    "code": "KeyE",
+    "keyType": "char",
+    "t": 1764889197841
+  },
+  {
+    "type": "iki",
+    "dt": 158,
+    "t": 1764889197841
+  },
+  {
+    "type": "answer_edit",
+    "question": 0,
+    "t": 1764889197843
+  },
+  {
+    "type": "keydown",
+    "code": "KeyW",
+    "keyType": "char",
+    "t": 1764889197917
+  },
+  {
+    "type": "iki",
+    "dt": 76,
+    "t": 1764889197917
+  },
+  {
+    "type": "answer_edit",
+    "question": 0,
+    "t": 1764889197918
+  },
+  {
+    "type": "keyup",
+    "code": "KeyE",
+    "t": 1764889198012
+  },
+  {
+    "type": "keyup",
+    "code": "KeyW",
+    "t": 1764889198053
+  },
+  {
+    "type": "keydown",
+    "code": "Space",
+    "keyType": "char",
+    "t": 1764889198158
+  },
+  {
+    "type": "iki",
+    "dt": 241,
+    "t": 1764889198158
+  },
+  {
+    "type": "answer_edit",
+    "question": 0,
+    "t": 1764889198160
+  },
+  {
+    "type": "keyup",
+    "code": "Space",
+    "t": 1764889198251
+  },
+  {
+    "type": "keydown",
+    "code": "ShiftLeft",
+    "keyType": "control",
+    "t": 1764889198310
+  },
+  {
+    "type": "iki",
+    "dt": 152,
+    "t": 1764889198310
+  },
+  {
+    "type": "keydown",
+    "code": "KeyD",
+    "keyType": "char",
+    "t": 1764889198402
+  },
+  {
+    "type": "iki",
+    "dt": 92,
+    "t": 1764889198402
+  },
+  {
+    "type": "answer_edit",
+    "question": 0,
+    "t": 1764889198404
+  },
+  {
+    "type": "keyup",
+    "code": "ShiftLeft",
+    "t": 1764889198498
+  },
+  {
+    "type": "keyup",
+    "code": "KeyD",
+    "t": 1764889198501
+  },
+  {
+    "type": "keydown",
+    "code": "KeyE",
+    "keyType": "char",
+    "t": 1764889198583
+  },
+  {
+    "type": "iki",
+    "dt": 181,
+    "t": 1764889198583
+  },
+  {
+    "type": "answer_edit",
+    "question": 0,
+    "t": 1764889198583
+  },
+  {
+    "type": "keyup",
+    "code": "KeyE",
+    "t": 1764889198700
+  },
+  {
+    "type": "keydown",
+    "code": "KeyL",
+    "keyType": "char",
+    "t": 1764889198700
+  },
+  {
+    "type": "iki",
+    "dt": 117,
+    "t": 1764889198700
+  },
+  {
+    "type": "answer_edit",
+    "question": 0,
+    "t": 1764889198701
+  },
+  {
+    "type": "keyup",
+    "code": "KeyL",
+    "t": 1764889198846
+  },
+  {
+    "type": "keydown",
+    "code": "KeyH",
+    "keyType": "char",
+    "t": 1764889198860
+  },
+  {
+    "type": "iki",
+    "dt": 160,
+    "t": 1764889198860
+  },
+  {
+    "type": "answer_edit",
+    "question": 0,
+    "t": 1764889198862
+  },
+  {
+    "type": "keydown",
+    "code": "KeyI",
+    "keyType": "char",
+    "t": 1764889198949
+  },
+  {
+    "type": "iki",
+    "dt": 89,
+    "t": 1764889198949
+  },
+  {
+    "type": "answer_edit",
+    "question": 0,
+    "t": 1764889198950
+  },
+  {
+    "type": "keyup",
+    "code": "KeyH",
+    "t": 1764889199066
+  },
+  {
+    "type": "keyup",
+    "code": "KeyI",
+    "t": 1764889199101
+  },
+  {
+    "type": "mousemove",
+    "x": 471,
+    "y": 298,
+    "t": 1764889199747
+  },
+  {
+    "type": "mousemove",
+    "x": 732,
+    "y": 325,
+    "t": 1764889199800
+  },
+  {
+    "type": "mousemove",
+    "x": 782,
+    "y": 340,
+    "t": 1764889199851
+  },
+  {
+    "type": "mousemove",
+    "x": 788,
+    "y": 343,
+    "t": 1764889199900
+  },
+  {
+    "type": "mousemove",
+    "x": 793,
+    "y": 345,
+    "t": 1764889199951
+  },
+  {
+    "type": "mousemove",
+    "x": 796,
+    "y": 348,
+    "t": 1764889200000
+  },
+  {
+    "type": "mousemove",
+    "x": 802,
+    "y": 351,
+    "t": 1764889200050
+  },
+  {
+    "type": "mousemove",
+    "x": 812,
+    "y": 357,
+    "t": 1764889200100
+  },
+  {
+    "type": "mousemove",
+    "x": 821,
+    "y": 361,
+    "t": 1764889200150
+  },
+  {
+    "type": "mousemove",
+    "x": 826,
+    "y": 364,
+    "t": 1764889200200
+  },
+  {
+    "type": "mousedown",
+    "x": 827,
+    "y": 364,
+    "button": 0,
+    "t": 1764889200462
+  },
+  {
+    "type": "mouseup",
+    "x": 827,
+    "y": 364,
+    "button": 0,
+    "t": 1764889200688
+  },
+  {
+    "type": "click",
+    "x": 827,
+    "y": 364,
+    "button": 0,
+    "t": 1764889200688
+  },
+  {
+    "type": "question_save",
+    "question": 0,
+    "t": 1764889200688
+  },
+  {
+    "type": "question_change",
+    "question": 1,
+    "t": 1764889200688
+  },
+  {
+    "type": "question_save",
+    "question": 1,
+    "t": 1764889200688
+  },
+  {
+    "type": "mousemove",
+    "x": 817,
+    "y": 354,
+    "t": 1764889201040
+  },
+  {
+    "type": "mousemove",
+    "x": 746,
+    "y": 278,
+    "t": 1764889201083
+  },
+  {
+    "type": "mousemove",
+    "x": 710,
+    "y": 245,
+    "t": 1764889201133
+  },
+  {
+    "type": "mousemove",
+    "x": 701,
+    "y": 236,
+    "t": 1764889201182
+  },
+  {
+    "type": "mousemove",
+    "x": 696,
+    "y": 231,
+    "t": 1764889201232
+  },
+  {
+    "type": "mousemove",
+    "x": 693,
+    "y": 228,
+    "t": 1764889201283
+  },
+  {
+    "type": "mousemove",
+    "x": 689,
+    "y": 218,
+    "t": 1764889201332
+  },
+  {
+    "type": "mousemove",
+    "x": 684,
+    "y": 205,
+    "t": 1764889201382
+  },
+  {
+    "type": "mousemove",
+    "x": 682,
+    "y": 202,
+    "t": 1764889201432
+  },
+  {
+    "type": "mousemove",
+    "x": 680,
+    "y": 197,
+    "t": 1764889201483
+  },
+  {
+    "type": "mousemove",
+    "x": 678,
+    "y": 193,
+    "t": 1764889201532
+  },
+  {
+    "type": "mousemove",
+    "x": 676,
+    "y": 192,
+    "t": 1764889201573
+  },
+  {
+    "type": "mousemove",
+    "x": 675,
+    "y": 190,
+    "t": 1764889201960
+  },
+  {
+    "type": "mousemove",
+    "x": 667,
+    "y": 189,
+    "t": 1764889202015
+  },
+  {
+    "type": "mousemove",
+    "x": 664,
+    "y": 188,
+    "t": 1764889202065
+  },
+  {
+    "type": "mousemove",
+    "x": 664,
+    "y": 186,
+    "t": 1764889202132
+  },
+  {
+    "type": "mousemove",
+    "x": 664,
+    "y": 184,
+    "t": 1764889202199
+  },
+  {
+    "type": "mousemove",
+    "x": 667,
+    "y": 182,
+    "t": 1764889202248
+  },
+  {
+    "type": "mousemove",
+    "x": 670,
+    "y": 181,
+    "t": 1764889202298
+  },
+  {
+    "type": "mousemove",
+    "x": 671,
+    "y": 181,
+    "t": 1764889202351
+  },
+  {
+    "type": "mousedown",
+    "x": 671,
+    "y": 181,
+    "button": 0,
+    "t": 1764889202529
+  },
+  {
+    "type": "mousemove",
+    "x": 664,
+    "y": 181,
+    "t": 1764889202699
+  },
+  {
+    "type": "selection",
+    "length": 1,
+    "t": 1764889202711
+  },
+  {
+    "type": "selection",
+    "length": 3,
+    "t": 1764889202715
+  },
+  {
+    "type": "selection",
+    "length": 6,
+    "t": 1764889202732
+  },
+  {
+    "type": "mousemove",
+    "x": 614,
+    "y": 180,
+    "t": 1764889202748
+  },
+  {
+    "type": "selection",
+    "length": 7,
+    "t": 1764889202748
+  },
+  {
+    "type": "selection",
+    "length": 9,
+    "t": 1764889202765
+  },
+  {
+    "type": "mousemove",
+    "x": 592,
+    "y": 180,
+    "t": 1764889202798
+  },
+  {
+    "type": "selection",
+    "length": 10,
+    "t": 1764889202798
+  },
+  {
+    "type": "selection",
+    "length": 11,
+    "t": 1764889202816
+  },
+  {
+    "type": "selection",
+    "length": 12,
+    "t": 1764889202833
+  },
+  {
+    "type": "mousemove",
+    "x": 578,
+    "y": 180,
+    "t": 1764889202848
+  },
+  {
+    "type": "selection",
+    "length": 13,
+    "t": 1764889202865
+  },
+  {
+    "type": "mousemove",
+    "x": 571,
+    "y": 180,
+    "t": 1764889202898
+  },
+  {
+    "type": "mousemove",
+    "x": 564,
+    "y": 180,
+    "t": 1764889202947
+  },
+  {
+    "type": "selection",
+    "length": 14,
+    "t": 1764889202948
+  },
+  {
+    "type": "selection",
+    "length": 15,
+    "t": 1764889202981
+  },
+  {
+    "type": "mousemove",
+    "x": 552,
+    "y": 180,
+    "t": 1764889202997
+  },
+  {
+    "type": "selection",
+    "length": 16,
+    "t": 1764889203015
+  },
+  {
+    "type": "selection",
+    "length": 17,
+    "t": 1764889203032
+  },
+  {
+    "type": "mousemove",
+    "x": 538,
+    "y": 179,
+    "t": 1764889203048
+  },
+  {
+    "type": "mousemove",
+    "x": 534,
+    "y": 179,
+    "t": 1764889203097
+  },
+  {
+    "type": "mousemove",
+    "x": 529,
+    "y": 179,
+    "t": 1764889203147
+  },
+  {
+    "type": "mousemove",
+    "x": 525,
+    "y": 179,
+    "t": 1764889203197
+  },
+  {
+    "type": "mousemove",
+    "x": 522,
+    "y": 179,
+    "t": 1764889203259
+  },
+  {
+    "type": "mousemove",
+    "x": 521,
+    "y": 179,
+    "t": 1764889203313
+  },
+  {
+    "type": "mouseup",
+    "x": 521,
+    "y": 179,
+    "button": 0,
+    "t": 1764889203333
+  },
+  {
+    "type": "click",
+    "x": 521,
+    "y": 179,
+    "button": 0,
+    "t": 1764889203333
+  },
+  {
+    "type": "mousemove",
+    "x": 517,
+    "y": 179,
+    "t": 1764889205729
+  },
+  {
+    "type": "mousemove",
+    "x": 441,
+    "y": 176,
+    "t": 1764889205778
+  },
+  {
+    "type": "mousemove",
+    "x": 389,
+    "y": 173,
+    "t": 1764889205828
+  },
+  {
+    "type": "mousemove",
+    "x": 379,
+    "y": 173,
+    "t": 1764889205878
+  },
+  {
+    "type": "mousemove",
+    "x": 378,
+    "y": 175,
+    "t": 1764889208479
+  },
+  {
+    "type": "mousemove",
+    "x": 384,
+    "y": 197,
+    "t": 1764889208526
+  },
+  {
+    "type": "mousemove",
+    "x": 387,
+    "y": 211,
+    "t": 1764889208576
+  },
+  {
+    "type": "mousedown",
+    "x": 387,
+    "y": 214,
+    "button": 0,
+    "t": 1764889211249
+  },
+  {
+    "type": "mouseup",
+    "x": 387,
+    "y": 214,
+    "button": 0,
+    "t": 1764889211474
+  },
+  {
+    "type": "click",
+    "x": 387,
+    "y": 214,
+    "button": 0,
+    "t": 1764889211474
+  },
+  {
+    "type": "mousemove",
+    "x": 404,
+    "y": 221,
+    "t": 1764889211677
+  },
+  {
+    "type": "mousemove",
+    "x": 592,
+    "y": 300,
+    "t": 1764889211723
+  },
+  {
+    "type": "mousemove",
+    "x": 625,
+    "y": 317,
+    "t": 1764889211773
+  },
+  {
+    "type": "mousemove",
+    "x": 631,
+    "y": 321,
+    "t": 1764889211823
+  },
+  {
+    "type": "mousemove",
+    "x": 634,
+    "y": 321,
+    "t": 1764889211873
+  },
+  {
+    "type": "mousemove",
+    "x": 636,
+    "y": 321,
+    "t": 1764889211940
+  },
+  {
+    "type": "mousemove",
+    "x": 638,
+    "y": 319,
+    "t": 1764889211998
+  },
+  {
+    "type": "mousemove",
+    "x": 644,
+    "y": 308,
+    "t": 1764889212040
+  },
+  {
+    "type": "mousemove",
+    "x": 662,
+    "y": 271,
+    "t": 1764889212089
+  },
+  {
+    "type": "mousemove",
+    "x": 674,
+    "y": 251,
+    "t": 1764889212139
+  },
+  {
+    "type": "mousemove",
+    "x": 688,
+    "y": 223,
+    "t": 1764889212189
+  },
+  {
+    "type": "mousemove",
+    "x": 700,
+    "y": 189,
+    "t": 1764889212240
+  },
+  {
+    "type": "mousemove",
+    "x": 704,
+    "y": 177,
+    "t": 1764889212290
+  },
+  {
+    "type": "mousedown",
+    "x": 704,
+    "y": 173,
+    "button": 0,
+    "t": 1764889212488
+  },
+  {
+    "type": "mousemove",
+    "x": 690,
+    "y": 173,
+    "t": 1764889212648
+  },
+  {
+    "type": "selection",
+    "length": 1,
+    "t": 1764889212658
+  },
+  {
+    "type": "selection",
+    "length": 8,
+    "t": 1764889212673
+  },
+  {
+    "type": "mousemove",
+    "x": 596,
+    "y": 174,
+    "t": 1764889212689
+  },
+  {
+    "type": "selection",
+    "length": 10,
+    "t": 1764889212690
+  },
+  {
+    "type": "selection",
+    "length": 14,
+    "t": 1764889212707
+  },
+  {
+    "type": "selection",
+    "length": 16,
+    "t": 1764889212723
+  },
+  {
+    "type": "mousemove",
+    "x": 536,
+    "y": 174,
+    "t": 1764889212739
+  },
+  {
+    "type": "selection",
+    "length": 17,
+    "t": 1764889212740
+  },
+  {
+    "type": "mousemove",
+    "x": 514,
+    "y": 174,
+    "t": 1764889212789
+  },
+  {
+    "type": "mousemove",
+    "x": 508,
+    "y": 174,
+    "t": 1764889212839
+  },
+  {
+    "type": "mousemove",
+    "x": 503,
+    "y": 175,
+    "t": 1764889212887
+  },
+  {
+    "type": "mouseup",
+    "x": 503,
+    "y": 175,
+    "button": 0,
+    "t": 1764889212887
+  },
+  {
+    "type": "click",
+    "x": 503,
+    "y": 175,
+    "button": 0,
+    "t": 1764889212887
+  },
+  {
+    "type": "keydown",
+    "code": "ControlLeft",
+    "keyType": "control",
+    "t": 1764889212976
+  },
+  {
+    "type": "iki",
+    "dt": 14027,
+    "t": 1764889212976
+  },
+  {
+    "type": "keydown",
+    "code": "KeyC",
+    "keyType": "char",
+    "t": 1764889213206
+  },
+  {
+    "type": "iki",
+    "dt": 230,
+    "t": 1764889213206
+  },
+  {
+    "type": "cheat_copy",
+    "msg": "Copy attempt detected",
+    "t": 1764889213211
+  },
+  {
+    "type": "keyup",
+    "code": "KeyC",
+    "t": 1764889213334
+  },
+  {
+    "type": "keyup",
+    "code": "ControlLeft",
+    "t": 1764889213350
+  },
+  {
+    "type": "mousemove",
+    "x": 503,
+    "y": 176,
+    "t": 1764889213761
+  },
+  {
+    "type": "mousemove",
+    "x": 489,
+    "y": 193,
+    "t": 1764889213805
+  },
+  {
+    "type": "mousemove",
+    "x": 480,
+    "y": 201,
+    "t": 1764889213855
+  },
+  {
+    "type": "mousemove",
+    "x": 476,
+    "y": 206,
+    "t": 1764889213904
+  },
+  {
+    "type": "mousemove",
+    "x": 473,
+    "y": 208,
+    "t": 1764889213988
+  },
+  {
+    "type": "mousemove",
+    "x": 478,
+    "y": 197,
+    "t": 1764889214611
+  },
+  {
+    "type": "mousemove",
+    "x": 553,
+    "y": 81,
+    "t": 1764889214654
+  },
+  {
+    "type": "mousemove",
+    "x": 624,
+    "y": 2,
+    "t": 1764889215096
+  },
+  {
+    "type": "mousemove",
+    "x": 468,
+    "y": 132,
+    "t": 1764889215137
+  },
+  {
+    "type": "mousemove",
+    "x": 417,
+    "y": 176,
+    "t": 1764889215187
+  },
+  {
+    "type": "mousedown",
+    "x": 414,
+    "y": 179,
+    "button": 0,
+    "t": 1764889215366
+  },
+  {
+    "type": "mouseup",
+    "x": 414,
+    "y": 179,
+    "button": 0,
+    "t": 1764889215581
+  },
+  {
+    "type": "click",
+    "x": 414,
+    "y": 179,
+    "button": 0,
+    "t": 1764889215581
+  },
+  {
+    "type": "mousemove",
+    "x": 423,
+    "y": 179,
+    "t": 1764889215691
+  },
+  {
+    "type": "mousemove",
+    "x": 473,
+    "y": 178,
+    "t": 1764889215737
+  },
+  {
+    "type": "mousemove",
+    "x": 498,
+    "y": 178,
+    "t": 1764889215786
+  },
+  {
+    "type": "mousemove",
+    "x": 504,
+    "y": 178,
+    "t": 1764889215836
+  },
+  {
+    "type": "mousemove",
+    "x": 511,
+    "y": 178,
+    "t": 1764889215886
+  },
+  {
+    "type": "mousemove",
+    "x": 543,
+    "y": 170,
+    "t": 1764889215936
+  },
+  {
+    "type": "mousemove",
+    "x": 594,
+    "y": 160,
+    "t": 1764889215986
+  },
+  {
+    "type": "mousemove",
+    "x": 608,
+    "y": 158,
+    "t": 1764889216037
+  },
+  {
+    "type": "mousemove",
+    "x": 656,
+    "y": 127,
+    "t": 1764889216086
+  },
+  {
+    "type": "visibility",
+    "state": "hidden",
+    "t": 1764889217374
+  },
+  {
+    "type": "cheat_tab_switch",
+    "msg": "Tab switched / window hidden",
+    "t": 1764889217374
+  },
+  {
+    "type": "visibility",
+    "state": "visible",
+    "t": 1764889217945
+  },
+  {
+    "type": "mousemove",
+    "x": 600,
+    "y": 5,
+    "t": 1764889218602
+  },
+  {
+    "type": "mousemove",
+    "x": 487,
+    "y": 182,
+    "t": 1764889218650
+  },
+  {
+    "type": "mousemove",
+    "x": 463,
+    "y": 226,
+    "t": 1764889218701
+  },
+  {
+    "type": "mousemove",
+    "x": 452,
+    "y": 249,
+    "t": 1764889218750
+  },
+  {
+    "type": "mousemove",
+    "x": 447,
+    "y": 262,
+    "t": 1764889218800
+  },
+  {
+    "type": "mousemove",
+    "x": 444,
+    "y": 266,
+    "t": 1764889218850
+  },
+  {
+    "type": "mousemove",
+    "x": 446,
+    "y": 267,
+    "t": 1764889221053
+  },
+  {
+    "type": "mousemove",
+    "x": 516,
+    "y": 275,
+    "t": 1764889221098
+  },
+  {
+    "type": "mousemove",
+    "x": 597,
+    "y": 299,
+    "t": 1764889221149
+  },
+  {
+    "type": "mousemove",
+    "x": 650,
+    "y": 314,
+    "t": 1764889221198
+  },
+  {
+    "type": "mousemove",
+    "x": 653,
+    "y": 314,
+    "t": 1764889222036
+  },
+  {
+    "type": "mousemove",
+    "x": 684,
+    "y": 313,
+    "t": 1764889222081
+  },
+  {
+    "type": "mousemove",
+    "x": 724,
+    "y": 313,
+    "t": 1764889222131
+  },
+  {
+    "type": "mousemove",
+    "x": 734,
+    "y": 313,
+    "t": 1764889222181
+  },
+  {
+    "type": "mousemove",
+    "x": 737,
+    "y": 314,
+    "t": 1764889222231
+  },
+  {
+    "type": "mousemove",
+    "x": 796,
+    "y": 322,
+    "t": 1764889222614
+  },
+  {
+    "type": "mousemove",
+    "x": 865,
+    "y": 341,
+    "t": 1764889222664
+  },
+  {
+    "type": "mousemove",
+    "x": 872,
+    "y": 341,
+    "t": 1764889222714
+  },
+  {
+    "type": "mousemove",
+    "x": 876,
+    "y": 343,
+    "t": 1764889222764
+  },
+  {
+    "type": "mousemove",
+    "x": 876,
+    "y": 346,
+    "t": 1764889222813
+  },
+  {
+    "type": "mousemove",
+    "x": 876,
+    "y": 349,
+    "t": 1764889222863
+  },
+  {
+    "type": "mousemove",
+    "x": 876,
+    "y": 354,
+    "t": 1764889222913
+  },
+  {
+    "type": "mousemove",
+    "x": 877,
+    "y": 358,
+    "t": 1764889222967
+  },
+  {
+    "type": "mousemove",
+    "x": 877,
+    "y": 361,
+    "t": 1764889223013
+  },
+  {
+    "type": "mousemove",
+    "x": 868,
+    "y": 361,
+    "t": 1764889224337
+  },
+  {
+    "type": "mousemove",
+    "x": 817,
+    "y": 334,
+    "t": 1764889224379
+  },
+  {
+    "type": "mousemove",
+    "x": 790,
+    "y": 314,
+    "t": 1764889224429
+  },
+  {
+    "type": "mousemove",
+    "x": 784,
+    "y": 311,
+    "t": 1764889224479
+  },
+  {
+    "type": "mousemove",
+    "x": 781,
+    "y": 309,
+    "t": 1764889224529
+  },
+  {
+    "type": "mousedown",
+    "x": 780,
+    "y": 308,
+    "button": 0,
+    "t": 1764889224751
+  },
+  {
+    "type": "mouseup",
+    "x": 780,
+    "y": 308,
+    "button": 0,
+    "t": 1764889224974
+  },
+  {
+    "type": "click",
+    "x": 780,
+    "y": 308,
+    "button": 0,
+    "t": 1764889224974
+  },
+  {
+    "type": "keydown",
+    "code": "KeyH",
+    "keyType": "char",
+    "t": 1764889225250
+  },
+  {
+    "type": "iki",
+    "dt": 12044,
+    "t": 1764889225250
+  },
+  {
+    "type": "answer_edit",
+    "question": 1,
+    "t": 1764889225251
+  },
+  {
+    "type": "keyup",
+    "code": "KeyH",
+    "t": 1764889225404
+  },
+  {
+    "type": "keydown",
+    "code": "KeyJ",
+    "keyType": "char",
+    "t": 1764889225405
+  },
+  {
+    "type": "iki",
+    "dt": 155,
+    "t": 1764889225405
+  },
+  {
+    "type": "answer_edit",
+    "question": 1,
+    "t": 1764889225407
+  },
+  {
+    "type": "keydown",
+    "code": "KeyH",
+    "keyType": "char",
+    "t": 1764889225488
+  },
+  {
+    "type": "iki",
+    "dt": 83,
+    "t": 1764889225488
+  },
+  {
+    "type": "answer_edit",
+    "question": 1,
+    "t": 1764889225489
+  },
+  {
+    "type": "keyup",
+    "code": "KeyJ",
+    "t": 1764889225537
+  },
+  {
+    "type": "keyup",
+    "code": "KeyH",
+    "t": 1764889225601
+  },
+  {
+    "type": "mousemove",
+    "x": 785,
+    "y": 311,
+    "t": 1764889226185
+  },
+  {
+    "type": "mousemove",
+    "x": 854,
+    "y": 353,
+    "t": 1764889226227
+  },
+  {
+    "type": "mousemove",
+    "x": 872,
+    "y": 365,
+    "t": 1764889226277
+  },
+  {
+    "type": "mousemove",
+    "x": 877,
+    "y": 369,
+    "t": 1764889226327
+  },
+  {
+    "type": "mousemove",
+    "x": 881,
+    "y": 371,
+    "t": 1764889226377
+  },
+  {
+    "type": "mousemove",
+    "x": 882,
+    "y": 373,
+    "t": 1764889226417
+  },
+  {
+    "type": "mousemove",
+    "x": 884,
+    "y": 376,
+    "t": 1764889226461
+  },
+  {
+    "type": "mousedown",
+    "x": 885,
+    "y": 377,
+    "button": 0,
+    "t": 1764889226638
+  },
+  {
+    "type": "mouseup",
+    "x": 885,
+    "y": 377,
+    "button": 0,
+    "t": 1764889226869
+  },
+  {
+    "type": "click",
+    "x": 885,
+    "y": 377,
+    "button": 0,
+    "t": 1764889226869
+  },
+  {
+    "type": "question_save",
+    "question": 1,
+    "t": 1764889226869
+  },
+  {
+    "type": "question_change",
+    "question": 2,
+    "t": 1764889226870
+  },
+  {
+    "type": "question_save",
+    "question": 2,
+    "t": 1764889226870
+  },
+  {
+    "type": "mousemove",
+    "x": 877,
+    "y": 371,
+    "t": 1764889227117
+  },
+  {
+    "type": "mousemove",
+    "x": 838,
+    "y": 346,
+    "t": 1764889227159
+  },
+  {
+    "type": "mousemove",
+    "x": 759,
+    "y": 309,
+    "t": 1764889227209
+  },
+  {
+    "type": "mousemove",
+    "x": 744,
+    "y": 305,
+    "t": 1764889227259
+  },
+  {
+    "type": "mousemove",
+    "x": 740,
+    "y": 303,
+    "t": 1764889227309
+  },
+  {
+    "type": "mousedown",
+    "x": 737,
+    "y": 303,
+    "button": 0,
+    "t": 1764889227513
+  },
+  {
+    "type": "mouseup",
+    "x": 737,
+    "y": 303,
+    "button": 0,
+    "t": 1764889227734
+  },
+  {
+    "type": "click",
+    "x": 737,
+    "y": 303,
+    "button": 0,
+    "t": 1764889227734
+  },
+  {
+    "type": "keydown",
+    "code": "KeyY",
+    "keyType": "char",
+    "t": 1764889228392
+  },
+  {
+    "type": "iki",
+    "dt": 2904,
+    "t": 1764889228392
+  },
+  {
+    "type": "answer_edit",
+    "question": 2,
+    "t": 1764889228393
+  },
+  {
+    "type": "keydown",
+    "code": "KeyO",
+    "keyType": "char",
+    "t": 1764889228520
+  },
+  {
+    "type": "iki",
+    "dt": 128,
+    "t": 1764889228520
+  },
+  {
+    "type": "answer_edit",
+    "question": 2,
+    "t": 1764889228521
+  },
+  {
+    "type": "keydown",
+    "code": "KeyU",
+    "keyType": "char",
+    "t": 1764889228577
+  },
+  {
+    "type": "iki",
+    "dt": 57,
+    "t": 1764889228577
+  },
+  {
+    "type": "answer_edit",
+    "question": 2,
+    "t": 1764889228577
+  },
+  {
+    "type": "keyup",
+    "code": "KeyY",
+    "t": 1764889228588
+  },
+  {
+    "type": "keyup",
+    "code": "KeyO",
+    "t": 1764889228674
+  },
+  {
+    "type": "keydown",
+    "code": "KeyT",
+    "keyType": "char",
+    "t": 1764889228692
+  },
+  {
+    "type": "iki",
+    "dt": 115,
+    "t": 1764889228692
+  },
+  {
+    "type": "answer_edit",
+    "question": 2,
+    "t": 1764889228694
+  },
+  {
+    "type": "keyup",
+    "code": "KeyU",
+    "t": 1764889228727
+  },
+  {
+    "type": "keydown",
+    "code": "KeyU",
+    "keyType": "char",
+    "t": 1764889228801
+  },
+  {
+    "type": "iki",
+    "dt": 109,
+    "t": 1764889228801
+  },
+  {
+    "type": "answer_edit",
+    "question": 2,
+    "t": 1764889228801
+  },
+  {
+    "type": "keyup",
+    "code": "KeyT",
+    "t": 1764889228846
+  },
+  {
+    "type": "keyup",
+    "code": "KeyU",
+    "t": 1764889228971
+  },
+  {
+    "type": "keydown",
+    "code": "KeyB",
+    "keyType": "char",
+    "t": 1764889229007
+  },
+  {
+    "type": "iki",
+    "dt": 206,
+    "t": 1764889229007
+  },
+  {
+    "type": "answer_edit",
+    "question": 2,
+    "t": 1764889229009
+  },
+  {
+    "type": "keydown",
+    "code": "KeyE",
+    "keyType": "char",
+    "t": 1764889229141
+  },
+  {
+    "type": "iki",
+    "dt": 134,
+    "t": 1764889229141
+  },
+  {
+    "type": "answer_edit",
+    "question": 2,
+    "t": 1764889229142
+  },
+  {
+    "type": "keyup",
+    "code": "KeyB",
+    "t": 1764889229161
+  },
+  {
+    "type": "keyup",
+    "code": "KeyE",
+    "t": 1764889229308
+  },
+  {
+    "type": "mousemove",
+    "x": 739,
+    "y": 303,
+    "t": 1764889229912
+  },
+  {
+    "type": "mousemove",
+    "x": 753,
+    "y": 308,
+    "t": 1764889229958
+  },
+  {
+    "type": "mousemove",
+    "x": 786,
+    "y": 320,
+    "t": 1764889230007
+  },
+  {
+    "type": "mousemove",
+    "x": 820,
+    "y": 333,
+    "t": 1764889230057
+  },
+  {
+    "type": "mousemove",
+    "x": 855,
+    "y": 354,
+    "t": 1764889230107
+  },
+  {
+    "type": "mousemove",
+    "x": 864,
+    "y": 361,
+    "t": 1764889230157
+  },
+  {
+    "type": "mousemove",
+    "x": 868,
+    "y": 365,
+    "t": 1764889230207
+  },
+  {
+    "type": "mousemove",
+    "x": 872,
+    "y": 366,
+    "t": 1764889230291
+  },
+  {
+    "type": "mousedown",
+    "x": 872,
+    "y": 367,
+    "button": 0,
+    "t": 1764889231002
+  },
+  {
+    "type": "mouseup",
+    "x": 872,
+    "y": 367,
+    "button": 0,
+    "t": 1764889231230
+  },
+  {
+    "type": "click",
+    "x": 872,
+    "y": 367,
+    "button": 0,
+    "t": 1764889231230
+  },
+  {
+    "type": "question_save",
+    "question": 2,
+    "t": 1764889231230
+  },
+  {
+    "type": "question_change",
+    "question": 3,
+    "t": 1764889231231
+  },
+  {
+    "type": "question_save",
+    "question": 3,
+    "t": 1764889231231
+  },
+  {
+    "type": "mousemove",
+    "x": 868,
+    "y": 365,
+    "t": 1764889231576
+  },
+  {
+    "type": "mousemove",
+    "x": 824,
+    "y": 347,
+    "t": 1764889231623
+  },
+  {
+    "type": "mousemove",
+    "x": 799,
+    "y": 337,
+    "t": 1764889231672
+  },
+  {
+    "type": "mousemove",
+    "x": 784,
+    "y": 334,
+    "t": 1764889231722
+  },
+  {
+    "type": "mousemove",
+    "x": 772,
+    "y": 329,
+    "t": 1764889231773
+  },
+  {
+    "type": "mousemove",
+    "x": 760,
+    "y": 321,
+    "t": 1764889231822
+  },
+  {
+    "type": "mousemove",
+    "x": 752,
+    "y": 313,
+    "t": 1764889231874
+  },
+  {
+    "type": "mousemove",
+    "x": 747,
+    "y": 308,
+    "t": 1764889231926
+  },
+  {
+    "type": "mousemove",
+    "x": 745,
+    "y": 305,
+    "t": 1764889231977
+  },
+  {
+    "type": "mousedown",
+    "x": 744,
+    "y": 305,
+    "button": 0,
+    "t": 1764889232219
+  },
+  {
+    "type": "mouseup",
+    "x": 744,
+    "y": 305,
+    "button": 0,
+    "t": 1764889232443
+  },
+  {
+    "type": "click",
+    "x": 744,
+    "y": 305,
+    "button": 0,
+    "t": 1764889232443
+  },
+  {
+    "type": "keydown",
+    "code": "Digit1",
+    "keyType": "char",
+    "t": 1764889233126
+  },
+  {
+    "type": "iki",
+    "dt": 3985,
+    "t": 1764889233126
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233127
+  },
+  {
+    "type": "keydown",
+    "code": "Digit3",
+    "keyType": "char",
+    "t": 1764889233243
+  },
+  {
+    "type": "iki",
+    "dt": 117,
+    "t": 1764889233243
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233245
+  },
+  {
+    "type": "keydown",
+    "code": "Digit9",
+    "keyType": "char",
+    "t": 1764889233247
+  },
+  {
+    "type": "iki",
+    "dt": 4,
+    "t": 1764889233247
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233249
+  },
+  {
+    "type": "keyup",
+    "code": "Digit1",
+    "t": 1764889233270
+  },
+  {
+    "type": "keydown",
+    "code": "Digit8",
+    "keyType": "char",
+    "t": 1764889233324
+  },
+  {
+    "type": "iki",
+    "dt": 77,
+    "t": 1764889233324
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233325
+  },
+  {
+    "type": "keydown",
+    "code": "Digit1",
+    "keyType": "char",
+    "t": 1764889233337
+  },
+  {
+    "type": "iki",
+    "dt": 13,
+    "t": 1764889233337
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233337
+  },
+  {
+    "type": "keyup",
+    "code": "Digit9",
+    "t": 1764889233374
+  },
+  {
+    "type": "keyup",
+    "code": "Digit3",
+    "t": 1764889233387
+  },
+  {
+    "type": "keydown",
+    "code": "Digit9",
+    "keyType": "char",
+    "t": 1764889233402
+  },
+  {
+    "type": "iki",
+    "dt": 65,
+    "t": 1764889233402
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233403
+  },
+  {
+    "type": "keyup",
+    "code": "Digit8",
+    "t": 1764889233425
+  },
+  {
+    "type": "keydown",
+    "code": "Digit3",
+    "keyType": "char",
+    "t": 1764889233426
+  },
+  {
+    "type": "iki",
+    "dt": 24,
+    "t": 1764889233426
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233426
+  },
+  {
+    "type": "keyup",
+    "code": "Digit1",
+    "t": 1764889233451
+  },
+  {
+    "type": "keydown",
+    "code": "Digit8",
+    "keyType": "char",
+    "t": 1764889233473
+  },
+  {
+    "type": "iki",
+    "dt": 47,
+    "t": 1764889233473
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233473
+  },
+  {
+    "type": "keyup",
+    "code": "Digit9",
+    "t": 1764889233509
+  },
+  {
+    "type": "keydown",
+    "code": "Digit1",
+    "keyType": "char",
+    "t": 1764889233522
+  },
+  {
+    "type": "iki",
+    "dt": 49,
+    "t": 1764889233522
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233523
+  },
+  {
+    "type": "keydown",
+    "code": "Digit9",
+    "keyType": "char",
+    "t": 1764889233545
+  },
+  {
+    "type": "iki",
+    "dt": 23,
+    "t": 1764889233545
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233546
+  },
+  {
+    "type": "keyup",
+    "code": "Digit3",
+    "t": 1764889233559
+  },
+  {
+    "type": "keyup",
+    "code": "Digit8",
+    "t": 1764889233570
+  },
+  {
+    "type": "keydown",
+    "code": "Digit8",
+    "keyType": "char",
+    "t": 1764889233616
+  },
+  {
+    "type": "iki",
+    "dt": 71,
+    "t": 1764889233616
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233617
+  },
+  {
+    "type": "keydown",
+    "code": "Digit3",
+    "keyType": "char",
+    "t": 1764889233633
+  },
+  {
+    "type": "iki",
+    "dt": 17,
+    "t": 1764889233633
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233633
+  },
+  {
+    "type": "keyup",
+    "code": "Digit1",
+    "t": 1764889233638
+  },
+  {
+    "type": "keyup",
+    "code": "Digit9",
+    "t": 1764889233645
+  },
+  {
+    "type": "keydown",
+    "code": "Digit9",
+    "keyType": "char",
+    "t": 1764889233694
+  },
+  {
+    "type": "iki",
+    "dt": 61,
+    "t": 1764889233694
+  },
+  {
+    "type": "answer_edit",
+    "question": 3,
+    "t": 1764889233695
+  },
+  {
+    "type": "keyup",
+    "code": "Digit8",
+    "t": 1764889233730
+  },
+  {
+    "type": "keyup",
+    "code": "Digit3",
+    "t": 1764889233750
+  },
+  {
+    "type": "keyup",
+    "code": "Digit9",
+    "t": 1764889233800
+  },
+  {
+    "type": "mousemove",
+    "x": 749,
+    "y": 307,
+    "t": 1764889234369
+  },
+  {
+    "type": "mousemove",
+    "x": 801,
+    "y": 342,
+    "t": 1764889234420
+  },
+  {
+    "type": "mousemove",
+    "x": 814,
+    "y": 353,
+    "t": 1764889234471
+  },
+  {
+    "type": "mousemove",
+    "x": 821,
+    "y": 359,
+    "t": 1764889234520
+  },
+  {
+    "type": "mousemove",
+    "x": 826,
+    "y": 363,
+    "t": 1764889234570
+  },
+  {
+    "type": "mousemove",
+    "x": 828,
+    "y": 366,
+    "t": 1764889234620
+  },
+  {
+    "type": "mousemove",
+    "x": 832,
+    "y": 370,
+    "t": 1764889234670
+  },
+  {
+    "type": "mousemove",
+    "x": 835,
+    "y": 375,
+    "t": 1764889234720
+  },
+  {
+    "type": "mousedown",
+    "x": 836,
+    "y": 376,
+    "button": 0,
+    "t": 1764889234921
+  },
+  {
+    "type": "mouseup",
+    "x": 836,
+    "y": 376,
+    "button": 0,
+    "t": 1764889235148
+  },
+  {
+    "type": "click",
+    "x": 836,
+    "y": 376,
+    "button": 0,
+    "t": 1764889235148
+  },
+  {
+    "type": "question_save",
+    "question": 3,
+    "t": 1764889235148
+  },
+  {
+    "type": "question_change",
+    "question": 4,
+    "t": 1764889235149
+  },
+  {
+    "type": "question_save",
+    "question": 4,
+    "t": 1764889235149
+  },
+  {
+    "type": "mousemove",
+    "x": 828,
+    "y": 371,
+    "t": 1764889235619
+  },
+  {
+    "type": "mousemove",
+    "x": 773,
+    "y": 329,
+    "t": 1764889235669
+  },
+  {
+    "type": "mousemove",
+    "x": 724,
+    "y": 301,
+    "t": 1764889235719
+  },
+  {
+    "type": "mousemove",
+    "x": 707,
+    "y": 297,
+    "t": 1764889235769
+  },
+  {
+    "type": "mousemove",
+    "x": 696,
+    "y": 293,
+    "t": 1764889235820
+  },
+  {
+    "type": "mousemove",
+    "x": 691,
+    "y": 293,
+    "t": 1764889235870
+  },
+  {
+    "type": "mousemove",
+    "x": 687,
+    "y": 293,
+    "t": 1764889235919
+  },
+  {
+    "type": "mousemove",
+    "x": 685,
+    "y": 293,
+    "t": 1764889235985
+  },
+  {
+    "type": "mousemove",
+    "x": 685,
+    "y": 294,
+    "t": 1764889236150
+  },
+  {
+    "type": "keydown",
+    "code": "Digit8",
+    "keyType": "char",
+    "t": 1764889236833
+  },
+  {
+    "type": "iki",
+    "dt": 3139,
+    "t": 1764889236833
+  },
+  {
+    "type": "keydown",
+    "code": "Digit9",
+    "keyType": "char",
+    "t": 1764889236911
+  },
+  {
+    "type": "iki",
+    "dt": 78,
+    "t": 1764889236911
+  },
+  {
+    "type": "keyup",
+    "code": "Digit8",
+    "t": 1764889236957
+  },
+  {
+    "type": "keydown",
+    "code": "Digit8",
+    "keyType": "char",
+    "t": 1764889237024
+  },
+  {
+    "type": "iki",
+    "dt": 113,
+    "t": 1764889237024
+  },
+  {
+    "type": "keyup",
+    "code": "Digit9",
+    "t": 1764889237047
+  },
+  {
+    "type": "keydown",
+    "code": "Digit9",
+    "keyType": "char",
+    "t": 1764889237110
+  },
+  {
+    "type": "iki",
+    "dt": 86,
+    "t": 1764889237110
+  },
+  {
+    "type": "keyup",
+    "code": "Digit8",
+    "t": 1764889237139
+  },
+  {
+    "type": "keydown",
+    "code": "Digit8",
+    "keyType": "char",
+    "t": 1764889237175
+  },
+  {
+    "type": "iki",
+    "dt": 65,
+    "t": 1764889237175
+  },
+  {
+    "type": "keyup",
+    "code": "Digit9",
+    "t": 1764889237246
+  },
+  {
+    "type": "keyup",
+    "code": "Digit8",
+    "t": 1764889237304
+  },
+  {
+    "type": "mousemove",
+    "x": 685,
+    "y": 298,
+    "t": 1764889237838
+  },
+  {
+    "type": "mousemove",
+    "x": 688,
+    "y": 310,
+    "t": 1764889237883
+  },
+  {
+    "type": "mousemove",
+    "x": 689,
+    "y": 314,
+    "t": 1764889237934
+  },
+  {
+    "type": "mousemove",
+    "x": 689,
+    "y": 318,
+    "t": 1764889237980
+  },
+  {
+    "type": "mousedown",
+    "x": 689,
+    "y": 318,
+    "button": 0,
+    "t": 1764889238139
+  },
+  {
+    "type": "mouseup",
+    "x": 689,
+    "y": 318,
+    "button": 0,
+    "t": 1764889238365
+  },
+  {
+    "type": "click",
+    "x": 689,
+    "y": 318,
+    "button": 0,
+    "t": 1764889238365
+  },
+  {
+    "type": "keydown",
+    "code": "Digit8",
+    "keyType": "char",
+    "t": 1764889238460
+  },
+  {
+    "type": "iki",
+    "dt": 1285,
+    "t": 1764889238460
+  },
+  {
+    "type": "answer_edit",
+    "question": 4,
+    "t": 1764889238461
+  },
+  {
+    "type": "keydown",
+    "code": "Digit9",
+    "keyType": "char",
+    "t": 1764889238553
+  },
+  {
+    "type": "iki",
+    "dt": 94,
+    "t": 1764889238554
+  },
+  {
+    "type": "answer_edit",
+    "question": 4,
+    "t": 1764889238555
+  },
+  {
+    "type": "keyup",
+    "code": "Digit8",
+    "t": 1764889238579
+  },
+  {
+    "type": "keydown",
+    "code": "Digit8",
+    "keyType": "char",
+    "t": 1764889238668
+  },
+  {
+    "type": "iki",
+    "dt": 114,
+    "t": 1764889238668
+  },
+  {
+    "type": "answer_edit",
+    "question": 4,
+    "t": 1764889238669
+  },
+  {
+    "type": "keyup",
+    "code": "Digit9",
+    "t": 1764889238700
+  },
+  {
+    "type": "keyup",
+    "code": "Digit8",
+    "t": 1764889238773
+  },
+  {
+    "type": "mousemove",
+    "x": 691,
+    "y": 308,
+    "t": 1764889239400
+  },
+  {
+    "type": "mousemove",
+    "x": 719,
+    "y": 193,
+    "t": 1764889239449
+  },
+  {
+    "type": "mousemove",
+    "x": 731,
+    "y": 131,
+    "t": 1764889239500
+  },
+  {
+    "type": "mousemove",
+    "x": 729,
+    "y": 113,
+    "t": 1764889239549
+  },
+  {
+    "type": "mousemove",
+    "x": 695,
+    "y": 128,
+    "t": 1764889239599
+  },
+  {
+    "type": "mousemove",
+    "x": 644,
+    "y": 202,
+    "t": 1764889239649
+  },
+  {
+    "type": "mousemove",
+    "x": 640,
+    "y": 211,
+    "t": 1764889239699
+  },
+  {
+    "type": "mousemove",
+    "x": 639,
+    "y": 216,
+    "t": 1764889239749
+  },
+  {
+    "type": "mousemove",
+    "x": 639,
+    "y": 219,
+    "t": 1764889239799
+  },
+  {
+    "type": "mousemove",
+    "x": 639,
+    "y": 219,
+    "t": 1764889239956
+  },
+  {
+    "type": "mousemove",
+    "x": 640,
+    "y": 213,
+    "t": 1764889239999
+  },
+  {
+    "type": "mousemove",
+    "x": 647,
+    "y": 204,
+    "t": 1764889240048
+  },
+  {
+    "type": "mousemove",
+    "x": 758,
+    "y": 167,
+    "t": 1764889240098
+  },
+  {
+    "type": "mousemove",
+    "x": 824,
+    "y": 170,
+    "t": 1764889240149
+  },
+  {
+    "type": "mousemove",
+    "x": 853,
+    "y": 177,
+    "t": 1764889240198
+  },
+  {
+    "type": "mousemove",
+    "x": 858,
+    "y": 179,
+    "t": 1764889240248
+  },
+  {
+    "type": "mousemove",
+    "x": 857,
+    "y": 179,
+    "t": 1764889240295
+  },
+  {
+    "type": "mousemove",
+    "x": 672,
+    "y": 119,
+    "t": 1764889240348
+  },
+  {
+    "type": "mousemove",
+    "x": 480,
+    "y": 105,
+    "t": 1764889240399
+  },
+  {
+    "type": "mousemove",
+    "x": 398,
+    "y": 105,
+    "t": 1764889240448
+  },
+  {
+    "type": "mousemove",
+    "x": 382,
+    "y": 105,
+    "t": 1764889240498
+  },
+  {
+    "type": "mousemove",
+    "x": 377,
+    "y": 105,
+    "t": 1764889240549
+  },
+  {
+    "type": "mousemove",
+    "x": 457,
+    "y": 51,
+    "t": 1764889240598
+  },
+  {
+    "type": "mousemove",
+    "x": 683,
+    "y": 264,
+    "t": 1764889246462
+  },
+  {
+    "type": "mousemove",
+    "x": 685,
+    "y": 287,
+    "t": 1764889246509
+  },
+  {
+    "type": "mousemove",
+    "x": 695,
+    "y": 311,
+    "t": 1764889246559
+  },
+  {
+    "type": "mousemove",
+    "x": 703,
+    "y": 327,
+    "t": 1764889246609
+  },
+  {
+    "type": "mousemove",
+    "x": 708,
+    "y": 334,
+    "t": 1764889246659
+  },
+  {
+    "type": "mousemove",
+    "x": 710,
+    "y": 339,
+    "t": 1764889246709
+  },
+  {
+    "type": "mousemove",
+    "x": 712,
+    "y": 343,
+    "t": 1764889246759
+  },
+  {
+    "type": "mousemove",
+    "x": 714,
+    "y": 348,
+    "t": 1764889246950
+  },
+  {
+    "type": "mousemove",
+    "x": 723,
+    "y": 368,
+    "t": 1764889246992
+  },
+  {
+    "type": "mousemove",
+    "x": 726,
+    "y": 374,
+    "t": 1764889247042
+  },
+  {
+    "type": "mousemove",
+    "x": 724,
+    "y": 376,
+    "t": 1764889247096
+  },
+  {
+    "type": "mousemove",
+    "x": 538,
+    "y": 239,
+    "t": 1764889247142
+  },
+  {
+    "type": "mousemove",
+    "x": 399,
+    "y": 185,
+    "t": 1764889247192
+  },
+  {
+    "type": "mousemove",
+    "x": 361,
+    "y": 185,
+    "t": 1764889247244
+  },
+  {
+    "type": "mousemove",
+    "x": 327,
+    "y": 197,
+    "t": 1764889247292
+  },
+  {
+    "type": "mousemove",
+    "x": 280,
+    "y": 231,
+    "t": 1764889247342
+  },
+  {
+    "type": "mousemove",
+    "x": 261,
+    "y": 253,
+    "t": 1764889247392
+  },
+  {
+    "type": "mousemove",
+    "x": 264,
+    "y": 264,
+    "t": 1764889247442
+  },
+  {
+    "type": "mousemove",
+    "x": 550,
+    "y": 397,
+    "t": 1764889247492
+  },
+  {
+    "type": "mousemove",
+    "x": 739,
+    "y": 461,
+    "t": 1764889247542
+  },
+  {
+    "type": "mousemove",
+    "x": 776,
+    "y": 473,
+    "t": 1764889247592
+  },
+  {
+    "type": "mousemove",
+    "x": 786,
+    "y": 474,
+    "t": 1764889247642
+  },
+  {
+    "type": "mousemove",
+    "x": 795,
+    "y": 471,
+    "t": 1764889247692
+  },
+  {
+    "type": "mousemove",
+    "x": 808,
+    "y": 453,
+    "t": 1764889247742
+  },
+  {
+    "type": "mousemove",
+    "x": 815,
+    "y": 441,
+    "t": 1764889247791
+  },
+  {
+    "type": "mousemove",
+    "x": 833,
+    "y": 417,
+    "t": 1764889247842
+  },
+  {
+    "type": "mousemove",
+    "x": 848,
+    "y": 396,
+    "t": 1764889247892
+  },
+  {
+    "type": "mousemove",
+    "x": 853,
+    "y": 381,
+    "t": 1764889247941
+  },
+  {
+    "type": "mousemove",
+    "x": 855,
+    "y": 373,
+    "t": 1764889247992
+  },
+  {
+    "type": "mousemove",
+    "x": 856,
+    "y": 368,
+    "t": 1764889248042
+  },
+  {
+    "type": "mousemove",
+    "x": 856,
+    "y": 364,
+    "t": 1764889248101
+  },
+  {
+    "type": "mousemove",
+    "x": 858,
+    "y": 361,
+    "t": 1764889248152
+  },
+  {
+    "type": "mousemove",
+    "x": 853,
+    "y": 342,
+    "t": 1764889248208
+  },
+  {
+    "type": "mousemove",
+    "x": 715,
+    "y": 187,
+    "t": 1764889248258
+  },
+  {
+    "type": "mousemove",
+    "x": 663,
+    "y": 112,
+    "t": 1764889248308
+  },
+  {
+    "type": "mousemove",
+    "x": 656,
+    "y": 93,
+    "t": 1764889248358
+  },
+  {
+    "type": "mousemove",
+    "x": 656,
+    "y": 88,
+    "t": 1764889248408
+  },
+  {
+    "type": "mousemove",
+    "x": 719,
+    "y": 86,
+    "t": 1764889248459
+  },
+  {
+    "type": "mousemove",
+    "x": 761,
+    "y": 94,
+    "t": 1764889248508
+  },
+  {
+    "type": "mousemove",
+    "x": 781,
+    "y": 99,
+    "t": 1764889248558
+  },
+  {
+    "type": "mousemove",
+    "x": 800,
+    "y": 105,
+    "t": 1764889248608
+  },
+  {
+    "type": "mousemove",
+    "x": 864,
+    "y": 137,
+    "t": 1764889248658
+  },
+  {
+    "type": "mousemove",
+    "x": 907,
+    "y": 157,
+    "t": 1764889248708
+  },
+  {
+    "type": "mousemove",
+    "x": 915,
+    "y": 161,
+    "t": 1764889248758
+  },
+  {
+    "type": "mousemove",
+    "x": 919,
+    "y": 161,
+    "t": 1764889248808
+  },
+  {
+    "type": "mousemove",
+    "x": 922,
+    "y": 162,
+    "t": 1764889248869
+  },
+  {
+    "type": "mousemove",
+    "x": 923,
+    "y": 164,
+    "t": 1764889248942
+  },
+  {
+    "type": "mousemove",
+    "x": 923,
+    "y": 166,
+    "t": 1764889249011
+  },
+  {
+    "type": "mousemove",
+    "x": 920,
+    "y": 168,
+    "t": 1764889249057
+  },
+  {
+    "type": "mousemove",
+    "x": 915,
+    "y": 168,
+    "t": 1764889249108
+  },
+  {
+    "type": "mousemove",
+    "x": 852,
+    "y": 29,
+    "t": 1764889249157
+  },
+  {
+    "type": "mousemove",
+    "x": 776,
+    "y": 5,
+    "t": 1764889249360
+  },
+  {
+    "type": "mousemove",
+    "x": 770,
+    "y": 119,
+    "t": 1764889249407
+  },
+  {
+    "type": "mousemove",
+    "x": 775,
+    "y": 165,
+    "t": 1764889249458
+  },
+  {
+    "type": "mousemove",
+    "x": 778,
+    "y": 185,
+    "t": 1764889249507
+  },
+  {
+    "type": "mousemove",
+    "x": 778,
+    "y": 190,
+    "t": 1764889249557
+  },
+  {
+    "type": "mousemove",
+    "x": 778,
+    "y": 195,
+    "t": 1764889249606
+  },
+  {
+    "type": "mousemove",
+    "x": 708,
+    "y": 203,
+    "t": 1764889249657
+  },
+  {
+    "type": "mousemove",
+    "x": 438,
+    "y": 192,
+    "t": 1764889249708
+  },
+  {
+    "type": "mousemove",
+    "x": 332,
+    "y": 185,
+    "t": 1764889249757
+  },
+  {
+    "type": "mousedown",
+    "x": 317,
+    "y": 185,
+    "button": 0,
+    "t": 1764889250158
+  },
+  {
+    "type": "mouseup",
+    "x": 317,
+    "y": 185,
+    "button": 0,
+    "t": 1764889250364
+  },
+  {
+    "type": "click",
+    "x": 317,
+    "y": 185,
+    "button": 0,
+    "t": 1764889250364
+  },
+  {
+    "type": "mousemove",
+    "x": 325,
+    "y": 187,
+    "t": 1764889250673
+  },
+  {
+    "type": "mousemove",
+    "x": 386,
+    "y": 205,
+    "t": 1764889250722
+  },
+  {
+    "type": "mousedown",
+    "x": 392,
+    "y": 207,
+    "button": 0,
+    "t": 1764889251060
+  },
+  {
+    "type": "mouseup",
+    "x": 392,
+    "y": 207,
+    "button": 0,
+    "t": 1764889251278
+  },
+  {
+    "type": "click",
+    "x": 392,
+    "y": 207,
+    "button": 0,
+    "t": 1764889251278
+  },
+  {
+    "type": "mousemove",
+    "x": 421,
+    "y": 206,
+    "t": 1764889251403
+  },
+  {
+    "type": "mousemove",
+    "x": 557,
+    "y": 201,
+    "t": 1764889251455
+  },
+  {
+    "type": "mousedown",
+    "x": 566,
+    "y": 202,
+    "button": 0,
+    "t": 1764889251803
+  },
+  {
+    "type": "mouseup",
+    "x": 566,
+    "y": 202,
+    "button": 0,
+    "t": 1764889252032
+  },
+  {
+    "type": "click",
+    "x": 566,
+    "y": 202,
+    "button": 0,
+    "t": 1764889252032
+  },
+  {
+    "type": "mousemove",
+    "x": 588,
+    "y": 189,
+    "t": 1764889252232
+  },
+  {
+    "type": "mousemove",
+    "x": 888,
+    "y": 107,
+    "t": 1764889252289
+  },
+  {
+    "type": "mousemove",
+    "x": 950,
+    "y": 108,
+    "t": 1764889252338
+  },
+  {
+    "type": "mousemove",
+    "x": 961,
+    "y": 113,
+    "t": 1764889252388
+  },
+  {
+    "type": "mousemove",
+    "x": 966,
+    "y": 115,
+    "t": 1764889252438
+  },
+  {
+    "type": "mousemove",
+    "x": 967,
+    "y": 116,
+    "t": 1764889252481
+  },
+  {
+    "type": "mousedown",
+    "x": 968,
+    "y": 116,
+    "button": 0,
+    "t": 1764889252693
+  },
+  {
+    "type": "mouseup",
+    "x": 968,
+    "y": 116,
+    "button": 0,
+    "t": 1764889252907
+  },
+  {
+    "type": "click",
+    "x": 968,
+    "y": 116,
+    "button": 0,
+    "t": 1764889252907
+  },
+  {
+    "type": "mousemove",
+    "x": 964,
+    "y": 124,
+    "t": 1764889253008
+  },
+  {
+    "type": "mousemove",
+    "x": 932,
+    "y": 169,
+    "t": 1764889253054
+  },
+  {
+    "type": "mousemove",
+    "x": 920,
+    "y": 182,
+    "t": 1764889253104
+  },
+  {
+    "type": "mousemove",
+    "x": 917,
+    "y": 186,
+    "t": 1764889253153
+  },
+  {
+    "type": "mousemove",
+    "x": 912,
+    "y": 190,
+    "t": 1764889253203
+  },
+  {
+    "type": "mousemove",
+    "x": 906,
+    "y": 193,
+    "t": 1764889253253
+  },
+  {
+    "type": "mousedown",
+    "x": 898,
+    "y": 196,
+    "button": 0,
+    "t": 1764889253399
+  },
+  {
+    "type": "mousemove",
+    "x": 888,
+    "y": 192,
+    "t": 1764889253574
+  },
+  {
+    "type": "selection",
+    "length": 1,
+    "t": 1764889253575
+  },
+  {
+    "type": "selection",
+    "length": 2,
+    "t": 1764889253588
+  },
+  {
+    "type": "selection",
+    "length": 8,
+    "t": 1764889253604
+  },
+  {
+    "type": "mousemove",
+    "x": 737,
+    "y": 169,
+    "t": 1764889253620
+  },
+  {
+    "type": "selection",
+    "length": 18,
+    "t": 1764889253620
+  },
+  {
+    "type": "selection",
+    "length": 22,
+    "t": 1764889253637
+  },
+  {
+    "type": "selection",
+    "length": 27,
+    "t": 1764889253653
+  },
+  {
+    "type": "mousemove",
+    "x": 636,
+    "y": 168,
+    "t": 1764889253670
+  },
+  {
+    "type": "selection",
+    "length": 31,
+    "t": 1764889253671
+  },
+  {
+    "type": "selection",
+    "length": 37,
+    "t": 1764889253687
+  },
+  {
+    "type": "selection",
+    "length": 38,
+    "t": 1764889253704
+  },
+  {
+    "type": "mousemove",
+    "x": 559,
+    "y": 165,
+    "t": 1764889253720
+  },
+  {
+    "type": "selection",
+    "length": 41,
+    "t": 1764889253720
+  },
+  {
+    "type": "selection",
+    "length": 42,
+    "t": 1764889253738
+  },
+  {
+    "type": "selection",
+    "length": 43,
+    "t": 1764889253755
+  },
+  {
+    "type": "mousemove",
+    "x": 544,
+    "y": 166,
+    "t": 1764889253770
+  },
+  {
+    "type": "selection",
+    "length": 44,
+    "t": 1764889253787
+  },
+  {
+    "type": "mousemove",
+    "x": 533,
+    "y": 167,
+    "t": 1764889253820
+  },
+  {
+    "type": "mousemove",
+    "x": 509,
+    "y": 171,
+    "t": 1764889253869
+  },
+  {
+    "type": "mousemove",
+    "x": 497,
+    "y": 172,
+    "t": 1764889253919
+  },
+  {
+    "type": "mousemove",
+    "x": 479,
+    "y": 175,
+    "t": 1764889253971
+  },
+  {
+    "type": "mousemove",
+    "x": 474,
+    "y": 176,
+    "t": 1764889254020
+  },
+  {
+    "type": "mouseup",
+    "x": 472,
+    "y": 176,
+    "button": 0,
+    "t": 1764889254046
+  },
+  {
+    "type": "click",
+    "x": 472,
+    "y": 176,
+    "button": 0,
+    "t": 1764889254046
+  },
+  {
+    "type": "mousemove",
+    "x": 475,
+    "y": 176,
+    "t": 1764889254531
+  },
+  {
+    "type": "mousemove",
+    "x": 524,
+    "y": 177,
+    "t": 1764889254586
+  },
+  {
+    "type": "keydown",
+    "code": "ControlLeft",
+    "keyType": "control",
+    "t": 1764889254587
+  },
+  {
+    "type": "iki",
+    "dt": 15919,
+    "t": 1764889254587
+  },
+  {
+    "type": "mousemove",
+    "x": 531,
+    "y": 179,
+    "t": 1764889254636
+  },
+  {
+    "type": "mousemove",
+    "x": 535,
+    "y": 179,
+    "t": 1764889254686
+  },
+  {
+    "type": "mousemove",
+    "x": 537,
+    "y": 181,
+    "t": 1764889254735
+  },
+  {
+    "type": "keydown",
+    "code": "KeyC",
+    "keyType": "char",
+    "t": 1764889254747
+  },
+  {
+    "type": "iki",
+    "dt": 160,
+    "t": 1764889254747
+  },
+  {
+    "type": "cheat_copy",
+    "msg": "Copy attempt detected",
+    "t": 1764889254747
+  },
+  {
+    "type": "mousemove",
+    "x": 539,
+    "y": 181,
+    "t": 1764889254786
+  },
+  {
+    "type": "keyup",
+    "code": "KeyC",
+    "t": 1764889254846
+  },
+  {
+    "type": "mousemove",
+    "x": 542,
+    "y": 181,
+    "t": 1764889254852
+  },
+  {
+    "type": "mousemove",
+    "x": 545,
+    "y": 181,
+    "t": 1764889254893
+  },
+  {
+    "type": "keydown",
+    "code": "KeyC",
+    "keyType": "char",
+    "t": 1764889254908
+  },
+  {
+    "type": "iki",
+    "dt": 161,
+    "t": 1764889254908
+  },
+  {
+    "type": "cheat_copy",
+    "msg": "Copy attempt detected",
+    "t": 1764889254908
+  },
+  {
+    "type": "mousemove",
+    "x": 562,
+    "y": 181,
+    "t": 1764889254935
+  },
+  {
+    "type": "mousemove",
+    "x": 590,
+    "y": 180,
+    "t": 1764889254985
+  },
+  {
+    "type": "keyup",
+    "code": "KeyC",
+    "t": 1764889255010
+  },
+  {
+    "type": "mousemove",
+    "x": 642,
+    "y": 179,
+    "t": 1764889255035
+  },
+  {
+    "type": "mousemove",
+    "x": 696,
+    "y": 179,
+    "t": 1764889255085
+  },
+  {
+    "type": "mousemove",
+    "x": 719,
+    "y": 180,
+    "t": 1764889255135
+  },
+  {
+    "type": "mousemove",
+    "x": 726,
+    "y": 180,
+    "t": 1764889255185
+  },
+  {
+    "type": "mousemove",
+    "x": 731,
+    "y": 180,
+    "t": 1764889255236
+  },
+  {
+    "type": "keyup",
+    "code": "ControlLeft",
+    "t": 1764889255236
+  },
+  {
+    "type": "mousemove",
+    "x": 734,
+    "y": 180,
+    "t": 1764889255326
+  },
+  {
+    "type": "mousemove",
+    "x": 736,
+    "y": 180,
+    "t": 1764889255386
+  },
+  {
+    "type": "mousemove",
+    "x": 741,
+    "y": 180,
+    "t": 1764889255435
+  },
+  {
+    "type": "mousemove",
+    "x": 800,
+    "y": 189,
+    "t": 1764889255485
+  },
+  {
+    "type": "mousemove",
+    "x": 854,
+    "y": 196,
+    "t": 1764889255535
+  },
+  {
+    "type": "mousemove",
+    "x": 865,
+    "y": 197,
+    "t": 1764889255585
+  },
+  {
+    "type": "mousemove",
+    "x": 869,
+    "y": 197,
+    "t": 1764889255635
+  },
+  {
+    "type": "mousedown",
+    "x": 885,
+    "y": 192,
+    "button": 0,
+    "t": 1764889255809
+  },
+  {
+    "type": "mouseup",
+    "x": 885,
+    "y": 192,
+    "button": 0,
+    "t": 1764889256034
+  },
+  {
+    "type": "click",
+    "x": 885,
+    "y": 192,
+    "button": 0,
+    "t": 1764889256034
+  },
+  {
+    "type": "mousemove",
+    "x": 887,
+    "y": 189,
+    "t": 1764889256206
+  },
+  {
+    "type": "mousemove",
+    "x": 895,
+    "y": 173,
+    "t": 1764889256251
+  },
+  {
+    "type": "mousemove",
+    "x": 898,
+    "y": 165,
+    "t": 1764889256301
+  },
+  {
+    "type": "mousedown",
+    "x": 900,
+    "y": 161,
+    "button": 0,
+    "t": 1764889256492
+  },
+  {
+    "type": "mousemove",
+    "x": 871,
+    "y": 161,
+    "t": 1764889256634
+  },
+  {
+    "type": "selection",
+    "length": 3,
+    "t": 1764889256635
+  },
+  {
+    "type": "selection",
+    "length": 9,
+    "t": 1764889256651
+  },
+  {
+    "type": "selection",
+    "length": 17,
+    "t": 1764889256668
+  },
+  {
+    "type": "mousemove",
+    "x": 690,
+    "y": 171,
+    "t": 1764889256684
+  },
+  {
+    "type": "selection",
+    "length": 24,
+    "t": 1764889256684
+  },
+  {
+    "type": "selection",
+    "length": 29,
+    "t": 1764889256701
+  },
+  {
+    "type": "selection",
+    "length": 33,
+    "t": 1764889256718
+  },
+  {
+    "type": "mousemove",
+    "x": 580,
+    "y": 179,
+    "t": 1764889256734
+  },
+  {
+    "type": "selection",
+    "length": 38,
+    "t": 1764889256734
+  },
+  {
+    "type": "selection",
+    "length": 41,
+    "t": 1764889256751
+  },
+  {
+    "type": "selection",
+    "length": 43,
+    "t": 1764889256770
+  },
+  {
+    "type": "mousemove",
+    "x": 526,
+    "y": 183,
+    "t": 1764889256784
+  },
+  {
+    "type": "selection",
+    "length": 44,
+    "t": 1764889256784
+  },
+  {
+    "type": "mousemove",
+    "x": 475,
+    "y": 189,
+    "t": 1764889256834
+  },
+  {
+    "type": "mousemove",
+    "x": 471,
+    "y": 189,
+    "t": 1764889256884
+  },
+  {
+    "type": "mousemove",
+    "x": 468,
+    "y": 189,
+    "t": 1764889256936
+  },
+  {
+    "type": "mouseup",
+    "x": 467,
+    "y": 189,
+    "button": 0,
+    "t": 1764889257003
+  },
+  {
+    "type": "click",
+    "x": 467,
+    "y": 189,
+    "button": 0,
+    "t": 1764889257003
+  },
+  {
+    "type": "mousemove",
+    "x": 467,
+    "y": 189,
+    "t": 1764889257018
+  },
+  {
+    "type": "mousedown",
+    "x": 467,
+    "y": 189,
+    "button": 0,
+    "t": 1764889257210
+  },
+  {
+    "type": "mouseup",
+    "x": 467,
+    "y": 189,
+    "button": 0,
+    "t": 1764889257427
+  },
+  {
+    "type": "click",
+    "x": 467,
+    "y": 189,
+    "button": 0,
+    "t": 1764889257427
+  },
+  {
+    "type": "mousemove",
+    "x": 472,
+    "y": 188,
+    "t": 1764889257670
+  },
+  {
+    "type": "mousemove",
+    "x": 497,
+    "y": 183,
+    "t": 1764889257717
+  },
+  {
+    "type": "mousemove",
+    "x": 507,
+    "y": 182,
+    "t": 1764889257766
+  },
+  {
+    "type": "mousedown",
+    "x": 524,
+    "y": 180,
+    "button": 0,
+    "t": 1764889257915
+  },
+  {
+    "type": "mousemove",
+    "x": 536,
+    "y": 177,
+    "t": 1764889258085
+  },
+  {
+    "type": "selection",
+    "length": 8,
+    "t": 1764889258100
+  },
+  {
+    "type": "selection",
+    "length": 22,
+    "t": 1764889258116
+  },
+  {
+    "type": "mousemove",
+    "x": 811,
+    "y": 161,
+    "t": 1764889258133
+  },
+  {
+    "type": "selection",
+    "length": 35,
+    "t": 1764889258133
+  },
+  {
+    "type": "selection",
+    "length": 43,
+    "t": 1764889258150
+  },
+  {
+    "type": "selection",
+    "length": 44,
+    "t": 1764889258166
+  },
+  {
+    "type": "mousemove",
+    "x": 967,
+    "y": 170,
+    "t": 1764889258183
+  },
+  {
+    "type": "mousemove",
+    "x": 984,
+    "y": 171,
+    "t": 1764889258232
+  },
+  {
+    "type": "mousemove",
+    "x": 988,
+    "y": 172,
+    "t": 1764889258283
+  },
+  {
+    "type": "mousemove",
+    "x": 992,
+    "y": 172,
+    "t": 1764889258366
+  },
+  {
+    "type": "mouseup",
+    "x": 992,
+    "y": 173,
+    "button": 0,
+    "t": 1764889258374
+  },
+  {
+    "type": "click",
+    "x": 992,
+    "y": 173,
+    "button": 0,
+    "t": 1764889258374
+  },
+  {
+    "type": "mousedown",
+    "x": 992,
+    "y": 173,
+    "button": 0,
+    "t": 1764889258585
+  },
+  {
+    "type": "mousemove",
+    "x": 989,
+    "y": 173,
+    "t": 1764889258752
+  },
+  {
+    "type": "mousemove",
+    "x": 861,
+    "y": 177,
+    "t": 1764889258935
+  },
+  {
+    "type": "mousedown",
+    "x": 861,
+    "y": 177,
+    "button": 0,
+    "t": 1764889259112
+  },
+  {
+    "type": "mouseup",
+    "x": 861,
+    "y": 177,
+    "button": 0,
+    "t": 1764889259335
+  },
+  {
+    "type": "click",
+    "x": 861,
+    "y": 177,
+    "button": 0,
+    "t": 1764889259335
+  },
+  {
+    "type": "mousemove",
+    "x": 863,
+    "y": 177,
+    "t": 1764889259569
+  },
+  {
+    "type": "mousemove",
+    "x": 879,
+    "y": 181,
+    "t": 1764889259615
+  },
+  {
+    "type": "mousemove",
+    "x": 887,
+    "y": 182,
+    "t": 1764889259665
+  },
+  {
+    "type": "mousemove",
+    "x": 891,
+    "y": 185,
+    "t": 1764889259715
+  },
+  {
+    "type": "mousemove",
+    "x": 897,
+    "y": 197,
+    "t": 1764889259764
+  },
+  {
+    "type": "mousemove",
+    "x": 898,
+    "y": 237,
+    "t": 1764889259814
+  },
+  {
+    "type": "mousemove",
+    "x": 883,
+    "y": 269,
+    "t": 1764889259865
+  },
+  {
+    "type": "mousemove",
+    "x": 876,
+    "y": 277,
+    "t": 1764889259914
+  },
+  {
+    "type": "mousemove",
+    "x": 869,
+    "y": 291,
+    "t": 1764889260384
+  },
+  {
+    "type": "mousemove",
+    "x": 883,
+    "y": 343,
+    "t": 1764889260430
+  },
+  {
+    "type": "mousemove",
+    "x": 881,
+    "y": 373,
+    "t": 1764889260481
+  },
+  {
+    "type": "mousemove",
+    "x": 870,
+    "y": 385,
+    "t": 1764889260532
+  },
+  {
+    "type": "mousemove",
+    "x": 835,
+    "y": 404,
+    "t": 1764889260580
+  },
+  {
+    "type": "mousemove",
+    "x": 803,
+    "y": 412,
+    "t": 1764889260631
+  },
+  {
+    "type": "mousemove",
+    "x": 790,
+    "y": 417,
+    "t": 1764889260680
+  },
+  {
+    "type": "mousemove",
+    "x": 781,
+    "y": 419,
+    "t": 1764889260731
+  },
+  {
+    "type": "mousemove",
+    "x": 773,
+    "y": 421,
+    "t": 1764889260780
+  },
+  {
+    "type": "mousemove",
+    "x": 760,
+    "y": 426,
+    "t": 1764889260830
+  },
+  {
+    "type": "mousemove",
+    "x": 753,
+    "y": 429,
+    "t": 1764889260880
+  },
+  {
+    "type": "mousedown",
+    "x": 750,
+    "y": 430,
+    "button": 0,
+    "t": 1764889261924
+  },
+  {
+    "type": "mouseup",
+    "x": 750,
+    "y": 430,
+    "button": 0,
+    "t": 1764889262147
+  },
+  {
+    "type": "click",
+    "x": 750,
+    "y": 430,
+    "button": 0,
+    "t": 1764889262147
+  },
+  {
+    "type": "question_save",
+    "question": 4,
+    "t": 1764889264453
+  },
+  {
+    "type": "test_end",
+    "t": 1764889264453
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "type": "visibility",
+    "state": "visible",
+    "t": 1764887532815
+  },
+  {
+    "type": "mousemove",
+    "x": 534,
+    "y": 64,
+    "t": 1764887533539
+  },
+  {
+    "type": "mousemove",
+    "x": 480,
+    "y": 178,
+    "t": 1764887533589
+  },
+  {
+    "type": "mousemove",
+    "x": 473,
+    "y": 193,
+    "t": 1764887534122
+  },
+  {
+    "type": "mousedown",
+    "x": 445,
+    "y": 193,
+    "button": 0,
+    "t": 1764887534292
+  },
+  {
+    "type": "mouseup",
+    "x": 445,
+    "y": 193,
+    "button": 0,
+    "t": 1764887534508
+  },
+  {
+    "type": "click",
+    "x": 445,
+    "y": 193,
+    "button": 0,
+    "t": 1764887534509
+  },
+  {
+    "type": "mousemove",
+    "x": 464,
+    "y": 158,
+    "t": 1764887534587
+  },
+  {
+    "type": "visibility",
+    "state": "hidden",
+    "t": 1764887534865
+  },
+  {
+    "type": "cheat_tab_switch",
+    "msg": "Tab switched / window hidden",
+    "t": 1764887534865
+  }
+]
