@@ -41,3 +41,6 @@ Browser events → Flask API (/api/events) → Feature extraction → ML scoring
 
 video link:
 https://drive.google.com/file/d/1PKlBJu2witDwU1nAd_wV2XVP_WrJ3aOc/view?usp=sharing
+
+ppt link:
+https://drive.google.com/file/d/1PKlBJu2witDwU1nAd_wV2XVP_WrJ3aOc/view?usp=sharing
