@@ -4,6 +4,12 @@ This project is a privacy-friendly cheating-detection system for online examinat
 The system does not use webcam, microphone, or screen recording.  
 It relies only on browser interaction patterns to estimate a real-time risk score.
 
+video link:
+https://drive.google.com/file/d/1PKlBJu2witDwU1nAd_wV2XVP_WrJ3aOc/view?usp=sharing
+
+ppt link:
+https://drive.google.com/file/d/1PKlBJu2witDwU1nAd_wV2XVP_WrJ3aOc/view?usp=sharing
+
 ## Core Features
 - Test Platform with disabled copy-paste and right click functionality
 - Detects tab switching and window visibility changes
@@ -39,8 +45,4 @@ Browser events → Flask API (/api/events) → Feature extraction → ML scoring
 - scikit-learn (risk model)
 - Streamlit (proctor dashboard)
 
-video link:
-https://drive.google.com/file/d/1PKlBJu2witDwU1nAd_wV2XVP_WrJ3aOc/view?usp=sharing
 
-ppt link:
-https://drive.google.com/file/d/1PKlBJu2witDwU1nAd_wV2XVP_WrJ3aOc/view?usp=sharing
